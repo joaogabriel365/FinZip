@@ -1,7 +1,5 @@
 # Documentação Inicial — FinZip
 
-> Checkpoint 4 — Idealização. Este documento é vivo: será atualizado (não reescrito) nos Checkpoints 5 e 6.
-
 ## 1. Descrição do problema
 
 Jovens entre 18 e 25 anos — estudantes, estagiários ou em seus primeiros empregos — costumam ter dificuldade em controlar o próprio dinheiro. Mesadas, bolsas, salários de estágio e trabalhos freelance entram e saem da conta sem que fique claro para onde foi cada real gasto.
