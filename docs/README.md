@@ -2,11 +2,9 @@
 
 Documentação viva do projeto FinZip — atualizada a cada checkpoint, nunca reescrita do zero.
 
-Conteúdo previsto para o CP4:
-- Descrição do problema e persona/público-alvo
-- Requisitos funcionais (RF) e não funcionais (RNF)
-- Escopo do projeto (o que entra e o que fica de fora nesta primeira versão)
-- Diagrama(s) UML (Casos de Uso e/ou Classe)
-- Pitch do produto
-
-*Arquivos desta pasta serão adicionados na próxima etapa da entrega do CP4.*
+Conteúdo do CP4:
+- [`documentacao-inicial.md`](./documentacao-inicial.md) — problema, persona/público-alvo, requisitos funcionais (RF) e não funcionais (RNF), escopo do projeto
+- [`diagramas.md`](./diagramas.md) — Diagrama de Casos de Uso e Diagrama de Classes (Mermaid, renderiza direto no GitHub)
+- [`pitch.md`](./pitch.md) — diferencial do produto e texto do pitch de 1 minuto
+- [`trello.md`](./trello.md) — estrutura sugerida do quadro (colunas e cartões iniciais)
+- [`roteiro-video-cp4.md`](./roteiro-video-cp4.md) — roteiro do vídeo de apresentação (2 min)
