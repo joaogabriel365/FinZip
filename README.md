@@ -4,9 +4,6 @@
 
 Aplicativo financeiro voltado para jovens que querem organizar seus gastos, criar metas de economia e começar a construir hábitos financeiros saudáveis de forma simples e visual — sem planilha, sem complicação.
 
-> Projeto acadêmico desenvolvido para a disciplina de Engenharia de Software — FIAP, Engenharia de Computação (3º ano).
-> Checkpoint atual: **CP4 — Idealização**.
-
 ---
 
 ## 📌 Sobre o projeto
