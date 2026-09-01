@@ -23,11 +23,11 @@ A descrição completa do problema, persona, requisitos funcionais/não funciona
 
 | Integrante | RM | Papel no projeto |
 |---|---|---|
-| Enzo Raddatz | 556312 | *(a definir)* |
-| Francisco Ferrara Neto | 557209 | *(a definir)* |
-| João Gabriel De Bortoli Ribeiro | 554601 | *(a definir)* |
+| Enzo Raddatz | 556312 | Front-end / UX-UI — desenvolvimento das telas em React e protótipo navegável no Figma |
+| Francisco Ferrara Neto | 557209 | Back-end / Banco de dados — API em Node.js/Express e modelagem do banco PostgreSQL |
+| João Gabriel De Bortoli Ribeiro | 554601 | Documentação e Gestão do projeto — requisitos, diagramas UML, organização do Trello e integração entre as partes |
 
-> ⚠️ Os papéis de cada integrante ainda precisam ser confirmados e preenchidos aqui — é um item **obrigatório** da avaliação do CP4. Sugestão de divisão para um projeto Web (React + Node + PostgreSQL): Front-end/UX, Back-end/Banco de dados, Documentação/Gestão do projeto — mas fica a critério do grupo.
+> Divisão sugerida para os três integrantes, alinhada à stack do projeto (React + Node + PostgreSQL). Ajustem livremente conforme a afinidade de cada um.
 
 ---
 
@@ -43,35 +43,3 @@ A descrição completa do problema, persona, requisitos funcionais/não funciona
 ---
 
 ## 📁 Estrutura do repositório
-
-```
-finzip/
-├── client/       # Aplicação front-end (React)
-├── server/       # API back-end (Node.js + Express)
-├── database/     # Scripts SQL, migrations e modelagem do banco (PostgreSQL)
-├── docs/         # Documentação do projeto (requisitos, escopo, personas, diagramas UML)
-├── assets/       # Identidade visual (logo, paleta de cores, exports do Figma)
-└── README.md
-```
-
-Cada pasta tem seu próprio `README.md` explicando o que vai entrar nela.
-
----
-
-## 🚀 Como rodar o projeto
-
-*(Ambiente de desenvolvimento ainda será configurado a partir do CP5 — Protótipo Funcional. As instruções completas de instalação e execução serão adicionadas aqui nessa etapa.)*
-
----
-
-## 🗺️ Status do projeto
-
-- [x] **CP4 — Idealização:** documentação inicial, marca, pitch, modelagem básica (em andamento)
-- [ ] **CP5 — Protótipo Funcional:** telas navegáveis com dados mockados
-- [ ] **CP6 — Entrega Final:** aplicação funcional com persistência real de dados e pacote instalável
-
----
-
-## 📄 Licença
-
-Projeto acadêmico sem fins comerciais, desenvolvido para fins de avaliação na disciplina de Engenharia de Software.
