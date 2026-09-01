@@ -1,8 +1,8 @@
-# ⚡ FinZip
+#  FinZip
 
 **FinZip — suas finanças, num zip.**
 
-Aplicativo financeiro voltado para jovens que querem organizar seus gastos, criar metas de economia e começar a construir hábitos financeiros saudáveis de forma simples e visual — sem planilha, sem complicação.
+Aplicativo financeiro voltado para jovens que querem organizar seus gastos, criar metas de economia e começar a construir hábitos financeiros saudáveis de forma simples e visual, sem planilha, sem complicação.
 
 ---
 
@@ -16,7 +16,7 @@ A descrição completa do problema, persona, requisitos funcionais/não funciona
 
 ---
 
-## 👥 Time
+##  Time
 
 | Integrante | RM | Papel no projeto |
 |---|---|---|
@@ -24,11 +24,9 @@ A descrição completa do problema, persona, requisitos funcionais/não funciona
 | Francisco Ferrara Neto | 557209 | Back-end / Banco de dados — API em Node.js/Express e modelagem do banco PostgreSQL |
 | João Gabriel De Bortoli Ribeiro | 554601 | Documentação e Gestão do projeto — requisitos, diagramas UML, organização do Trello e integração entre as partes |
 
-> Divisão sugerida para os três integrantes, alinhada à stack do projeto (React + Node + PostgreSQL). Ajustem livremente conforme a afinidade de cada um.
-
 ---
 
-## 🛠️ Stack tecnológica
+##  Stack tecnológica
 
 - **Front-end:** React
 - **Back-end:** Node.js + Express
@@ -49,18 +47,15 @@ A descrição completa do problema, persona, requisitos funcionais/não funciona
 ├── .gitignore
 └── README.md
 
+---
 
-Cada pasta tem seu próprio `README.md` explicando o que vai entrar nela.
+##  Como rodar o projeto
+
+*(Ambiente de desenvolvimento ainda será configurado a partir do CP5 )*
 
 ---
 
-## 🚀 Como rodar o projeto
-
-*(Ambiente de desenvolvimento ainda será configurado a partir do CP5 — Protótipo Funcional. As instruções completas de instalação e execução serão adicionadas aqui nessa etapa.)*
-
----
-
-## 🗺️ Status do projeto
+##  Status do projeto
 
 - [x] **CP4 — Idealização:** documentação inicial, marca, pitch, modelagem básica (em andamento)
 - [ ] **CP5 — Protótipo Funcional:** telas navegáveis com dados mockados
@@ -68,6 +63,6 @@ Cada pasta tem seu próprio `README.md` explicando o que vai entrar nela.
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Projeto acadêmico sem fins comerciais, desenvolvido para fins de avaliação na disciplina de Engenharia de Software.
