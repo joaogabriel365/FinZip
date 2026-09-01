@@ -6,7 +6,7 @@
 
 ```mermaid
 flowchart LR
-    Usuario(["🧑 Usuário (jovem)"])
+    Usuario([" Usuário"])
 
     UC1(("Cadastrar-se"))
     UC2(("Fazer login"))
