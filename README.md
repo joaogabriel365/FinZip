@@ -43,3 +43,34 @@ A descrição completa do problema, persona, requisitos funcionais/não funciona
 ---
 
 ## 📁 Estrutura do repositório
+.
+├── client/ # Aplicação front-end (React)
+├── server/ # API back-end (Node.js + Express)
+├── database/ # Scripts SQL, migrations e modelagem do banco (PostgreSQL)
+├── docs/ # Documentação do projeto (requisitos, escopo, personas, diagramas UML)
+├── assets/ # Identidade visual (logo, paleta de cores, exports do Figma)
+├── .gitignore
+└── README.md
+
+
+Cada pasta tem seu próprio `README.md` explicando o que vai entrar nela.
+
+---
+
+## 🚀 Como rodar o projeto
+
+*(Ambiente de desenvolvimento ainda será configurado a partir do CP5 — Protótipo Funcional. As instruções completas de instalação e execução serão adicionadas aqui nessa etapa.)*
+
+---
+
+## 🗺️ Status do projeto
+
+- [x] **CP4 — Idealização:** documentação inicial, marca, pitch, modelagem básica (em andamento)
+- [ ] **CP5 — Protótipo Funcional:** telas navegáveis com dados mockados
+- [ ] **CP6 — Entrega Final:** aplicação funcional com persistência real de dados e pacote instalável
+
+---
+
+## 📄 Licença
+
+Projeto acadêmico sem fins comerciais, desenvolvido para fins de avaliação na disciplina de Engenharia de Software.
