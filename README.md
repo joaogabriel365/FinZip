@@ -1,4 +1,4 @@
-# ⚡ FinZip
+#  FinZip
 
 **FinZip — suas finanças, num zip.**
 
@@ -21,7 +21,7 @@ A descrição completa do problema, persona, requisitos funcionais/não funciona
 
 ---
 
-## 👥 Time
+##  Time
 
 | Integrante | RM | Papel no projeto |
 |---|---|---|
@@ -33,7 +33,7 @@ A descrição completa do problema, persona, requisitos funcionais/não funciona
 
 ---
 
-## 🛠️ Stack tecnológica
+##  Stack tecnológica
 
 - **Front-end:** React
 - **Back-end:** Node.js + Express
