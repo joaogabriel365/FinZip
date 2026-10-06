@@ -1,8 +1,13 @@
-#  FinZip
+# ⚡ FinZip
 
 **FinZip — suas finanças, num zip.**
 
-Aplicativo financeiro voltado para jovens que querem organizar seus gastos, criar metas de economia e começar a construir hábitos financeiros saudáveis de forma simples e visual, sem planilha, sem complicação.
+Aplicativo financeiro voltado para jovens que querem organizar seus gastos, criar metas de economia e começar a construir hábitos financeiros saudáveis de forma simples e visual — sem planilha, sem complicação.
+
+> Projeto acadêmico desenvolvido para a disciplina de Engenharia de Software — FIAP, Engenharia de Computação (3º ano).
+> Checkpoint atual: **CP5 — Protótipo Funcional**.
+
+🔗 **Protótipo no ar:** https://finzip-five.vercel.app
 
 ---
 
@@ -16,7 +21,7 @@ A descrição completa do problema, persona, requisitos funcionais/não funciona
 
 ---
 
-##  Time
+## 👥 Time
 
 | Integrante | RM | Papel no projeto |
 |---|---|---|
@@ -24,9 +29,11 @@ A descrição completa do problema, persona, requisitos funcionais/não funciona
 | Francisco Ferrara Neto | 557209 | Back-end / Banco de dados — API em Node.js/Express e modelagem do banco PostgreSQL |
 | João Gabriel De Bortoli Ribeiro | 554601 | Documentação e Gestão do projeto — requisitos, diagramas UML, organização do Trello e integração entre as partes |
 
+> Divisão sugerida para os três integrantes, alinhada à stack do projeto (React + Node + PostgreSQL). Ajustem livremente conforme a afinidade de cada um.
+
 ---
 
-##  Stack tecnológica
+## 🛠️ Stack tecnológica
 
 - **Front-end:** React
 - **Back-end:** Node.js + Express
@@ -38,31 +45,48 @@ A descrição completa do problema, persona, requisitos funcionais/não funciona
 ---
 
 ## 📁 Estrutura do repositório
+
+```
 .
-├── client/ # Aplicação front-end (React)
-├── server/ # API back-end (Node.js + Express)
-├── database/ # Scripts SQL, migrations e modelagem do banco (PostgreSQL)
-├── docs/ # Documentação do projeto (requisitos, escopo, personas, diagramas UML)
-├── assets/ # Identidade visual (logo, paleta de cores, exports do Figma)
+├── client/       # Aplicação front-end (React)
+├── server/       # API back-end (Node.js + Express)
+├── database/     # Scripts SQL, migrations e modelagem do banco (PostgreSQL)
+├── docs/         # Documentação do projeto (requisitos, escopo, personas, diagramas UML)
+├── assets/       # Identidade visual (logo, paleta de cores, exports do Figma)
 ├── .gitignore
 └── README.md
+```
+
+Cada pasta tem seu próprio `README.md` explicando o que vai entrar nela.
 
 ---
 
-##  Como rodar o projeto
+## 🚀 Como rodar o projeto
 
-*(Ambiente de desenvolvimento ainda será configurado a partir do CP5 )*
+O protótipo do CP5 é só o front-end (React), com dados mockados — não precisa de banco de dados nem back-end rodando.
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+Depois é só abrir o endereço que aparecer no terminal (geralmente `http://localhost:5173`).
+
+O app começa vazio: crie uma conta pela tela de cadastro e registre suas próprias transações e metas.
+
+Todos os dados (usuários, transações, metas) são salvos no `localStorage` do navegador — não há persistência real ainda (isso vem no CP6).
 
 ---
 
-##  Status do projeto
+## 🗺️ Status do projeto
 
-- [x] **CP4 — Idealização:** documentação inicial, marca, pitch, modelagem básica (em andamento)
-- [ ] **CP5 — Protótipo Funcional:** telas navegáveis com dados mockados
+- [x] **CP4 — Idealização:** documentação inicial, marca, pitch, modelagem básica
+- [x] **CP5 — Protótipo Funcional:** telas navegáveis com dados mockados, deploy no Vercel
 - [ ] **CP6 — Entrega Final:** aplicação funcional com persistência real de dados e pacote instalável
 
 ---
 
-##  Licença
+## 📄 Licença
 
 Projeto acadêmico sem fins comerciais, desenvolvido para fins de avaliação na disciplina de Engenharia de Software.

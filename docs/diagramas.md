@@ -1,12 +1,12 @@
 # Diagramas UML — FinZip
 
-> Visão inicial do sistema (CP4). Serão revisados e atualizados nos Checkpoints 5 e 6 conforme o desenvolvimento avança.
+> Documento vivo: os diagramas de Casos de Uso e de Classes foram criados no CP4 (visão inicial do sistema). No CP5, adicionamos os diagramas de Sequência e de Atividade, já refletindo os fluxos implementados no protótipo funcional (com dados mockados, sem banco de dados real). Serão revisados novamente no CP6, quando o sistema passar a ter persistência real.
 
 ## Diagrama de Casos de Uso
 
 ```mermaid
 flowchart LR
-    Usuario([" Usuário"])
+    Usuario(["🧑 Usuário (jovem)"])
 
     UC1(("Cadastrar-se"))
     UC2(("Fazer login"))
@@ -80,5 +80,44 @@ classDiagram
     Usuario "1" --> "*" Transacao : registra
     Usuario "1" --> "*" Meta : define
     Categoria "1" --> "*" Transacao : classifica
+```
+
+## Diagrama de Sequência — Login (CP5)
+
+> Reflete a implementação atual: sem back-end/banco real, a autenticação é validada no próprio front-end, contra os dados mockados salvos no `localStorage` do navegador.
+
+```mermaid
+sequenceDiagram
+    actor Usuario as Usuário
+    participant Tela as Tela de Login
+    participant Ctx as AppContext (estado global)
+    participant LS as localStorage (dados mockados)
+
+    Usuario->>Tela: informa e-mail e senha
+    Tela->>Ctx: login(email, senha)
+    Ctx->>LS: busca usuário cadastrado
+    LS-->>Ctx: retorna usuário (ou nada)
+    alt credenciais válidas
+        Ctx-->>Tela: sucesso, define sessão ativa
+        Tela-->>Usuario: redireciona para o Dashboard
+    else credenciais inválidas
+        Ctx-->>Tela: erro
+        Tela-->>Usuario: exibe mensagem "e-mail ou senha incorretos"
+    end
+```
+
+## Diagrama de Atividade — Registrar transação (CP5)
+
+```mermaid
+flowchart TD
+    Start([Início]) --> Abre[Usuário abre a tela de Transações]
+    Abre --> Clica[Clica em "Nova transação"]
+    Clica --> Preenche[Preenche tipo, categoria, valor, data e descrição]
+    Preenche --> Valida{Dados válidos?}
+    Valida -- Não --> Erro[Exibe mensagem de erro no formulário]
+    Erro --> Preenche
+    Valida -- Sim --> Salva[Salva a transação no estado global / localStorage]
+    Salva --> Atualiza[Atualiza o Dashboard e a lista de transações]
+    Atualiza --> End([Fim])
 ```
 
