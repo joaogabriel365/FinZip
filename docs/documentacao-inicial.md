@@ -4,7 +4,7 @@
 
 ## 1. Descrição do problema
 
-Jovens entre 18 e 25 anos — estudantes, estagiários ou em seus primeiros empregos — costumam ter dificuldade em controlar o próprio dinheiro. Mesadas, bolsas, salários de estágio e trabalhos freelance entram e saem da conta sem que fique claro para onde foi cada real gasto.
+Jovens entre 18 e 25 anos, estudantes, estagiários ou em seus primeiros empregos, costumam ter dificuldade em controlar o próprio dinheiro. Mesadas, bolsas, salários de estágio e trabalhos freelance entram e saem da conta sem que fique claro para onde foi cada real gasto.
 
 A maioria dos aplicativos financeiros disponíveis hoje (bancos digitais, planilhas complexas, softwares de gestão financeira pessoal) foi pensada para um público mais velho, com mais produtos financeiros (investimentos, financiamentos, cartões múltiplos) e uma linguagem carregada de jargão técnico. Isso afasta quem está começando a lidar com dinheiro agora e só precisa de algo simples: saber quanto entra, quanto sai, e conseguir guardar um pouco.
 
@@ -52,8 +52,8 @@ O **FinZip** existe para preencher essa lacuna: um app para organizar o dinheiro
 | RNF02 | **Segurança:** a senha do usuário deve ser armazenada de forma criptografada, nunca em texto puro. | ⏳ Pendente — no protótipo mockado a senha fica em texto puro no `localStorage`; a criptografia real será implementada no CP6, junto com o back-end |
 | RNF03 | **Desempenho:** as telas principais (login, dashboard) devem carregar em até 2 segundos em condições normais de rede. | ✅ Atendido (aplicação estática, carregamento rápido) |
 | RNF04 | **Compatibilidade:** a aplicação deve ser responsiva, acessível tanto em navegador desktop quanto mobile. | ✅ Atendido (layout adaptado para telas menores) |
-| RNF05 | **Disponibilidade:** a aplicação deve estar hospedada em um serviço com disponibilidade compatível com uso educacional (ex.: Vercel, Render). | ✅ Atendido — deploy gratuito no Vercel |
-| RNF06 | **Arquitetura tecnológica:** front-end em React, back-end em Node.js/Express, banco de dados PostgreSQL. | ⏳ Parcial — front-end em React implementado; back-end e banco real ficam para o CP6 |
+| RNF05 | **Disponibilidade:** a aplicação deve estar hospedada em um serviço com disponibilidade compatível com uso educacional (ex.: Vercel, Render). | ✅ Atendido - deploy gratuito no Vercel |
+| RNF06 | **Arquitetura tecnológica:** front-end em React, back-end em Node.js/Express, banco de dados PostgreSQL. | ⏳ Parcial - front-end em React implementado; back-end e banco real ficam para o CP6 |
 
 ## 5. Escopo do projeto
 
