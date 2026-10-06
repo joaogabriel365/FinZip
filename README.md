@@ -1,6 +1,6 @@
 #  FinZip
 
-**FinZip — suas finanças, num zip.**
+**FinZip - suas finanças, num zip.**
 
 Aplicativo financeiro voltado para jovens que querem organizar seus gastos, criar metas de economia e começar a construir hábitos financeiros saudáveis de forma simples e visual — sem planilha, sem complicação.
 
